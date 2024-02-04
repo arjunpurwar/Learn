@@ -8,9 +8,16 @@ function App(){
     <div>
       <RecoilRoot>
         <Count />
+        <HelloWorlds />
       </RecoilRoot>
     </div>
   )
+}
+
+function HelloWorlds(){
+  return <div>
+    <h1>Hello World</h1>
+  </div>
 }
 
 function Count(){
